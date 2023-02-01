@@ -8,7 +8,9 @@ class Exercise01Test {
 
     @Test
     void shouldSubtract_OK() {
-        assertEquals(3, new Exercise01().subtract(7, 4));
-        assertEquals(3, new Exercise01().subtract(8, 5));
+        final var exercise01 = new Exercise01();
+
+        assertEquals(3, exercise01.subtract(7, 4));
+        assertEquals(3, exercise01.subtract(8, 5));
     }
 }
